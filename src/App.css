@@ -4,6 +4,7 @@
 }
 .header h1 {
   padding-top: 100px;
+  margin-left: 20px;
 }
 .header .form {
   padding-top: 50px;
@@ -15,14 +16,13 @@
   font-size: 40px;
 }
 form {
-  width: 70%;
+  width: 80%;
   height: 50px;
   margin: 20px auto;
   display: flex;
 }
 form input,
 form button {
-  flex: 3;
   border: none;
   outline: none;
   border-bottom: 1px solid #555;
@@ -31,12 +31,14 @@ form button {
 }
 form input {
   padding-left: 20px;
+  flex: 6;
 }
+
 form input:focus {
-  flex: 1;
+  flex: 6;
 }
 form button {
-  flex: 1;
+  flex: 2;
   background: #555;
   color: white;
   letter-spacing: 2px;
