@@ -22,7 +22,7 @@ form {
 }
 form input,
 form button {
-  flex: 2;
+  flex: 3;
   border: none;
   outline: none;
   border-bottom: 1px solid #555;
@@ -33,7 +33,7 @@ form input {
   padding-left: 20px;
 }
 form input:focus {
-  flex: 2;
+  flex: 1;
 }
 form button {
   flex: 1;
